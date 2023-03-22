@@ -1,5 +1,6 @@
 # koa-app
 从0到1搭建一个koa 管理系统服务端
+```
 |-- koa-app
     |-- .babelrc										配置使用注解
     |-- .gitignore									git忽略项
@@ -39,3 +40,6 @@
         |-- redis.js								redis
         |-- success.js							成功工具类
         |-- token.js								签发和解析token
+
+```
+[具体教程](https://abc.dtxy.xyz/boke/study/KoaSystem.html)

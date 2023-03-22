@@ -4,7 +4,7 @@ const router = new SwaggerRouter()
 const koajwt = require('koa-jwt');
 const { secret } = require('@config/config');
 const { NO_AUTH } = require('@config/httpRes');
-const auth = require('@utils/auth');
+const auth = require('@middlewares/auth');
 
 router.swagger({
 	title: '管理系统',
